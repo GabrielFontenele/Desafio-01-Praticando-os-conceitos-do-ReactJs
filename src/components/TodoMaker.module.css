@@ -1,0 +1,31 @@
+.todoForm {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: calc(0px - 1.70rem )
+}
+
+.todoForm input {
+  background: var(--gray-500);
+  width: 100%;
+  padding: 1rem;
+  border: 0;
+  resize: none;
+  border-radius: 8px;
+  color: var(--gray-100);
+}
+
+.todoForm button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  line-height: 140%;
+  font-weight: bold;
+  font-size: 0.875rem;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  width: 5.625rem;
+  padding: 1rem;
+  border: 0;
+  resize: none;
+  border-radius: 8px;
+}

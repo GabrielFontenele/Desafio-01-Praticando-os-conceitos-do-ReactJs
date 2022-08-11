@@ -1,0 +1,70 @@
+.todoBox {
+  box-sizing: border-box;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 0.75rem;
+  background: var(--gray-500);
+
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+
+  align-self: stretch;
+}
+
+.todoBox input {
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 50%;
+
+  background: var(--purple-dark);
+
+  display: flex;
+  justify-content: center;
+}
+
+.checkboxChecked {
+  content:url(../assets/checkboxChecked.svg);
+}
+
+.checkboxChecked:hover {
+  content:url(../assets/checkboxCheckedHover.svg);
+}
+
+.checkboxUnchecked {
+  content:url(../assets/checkboxUnchecked.svg);
+}
+
+.checkboxUnchecked:hover {
+  content:url(../assets/checkboxUncheckedHover.svg);
+}
+
+.todoContent {
+  width: 100%;
+}
+.todoContentStrike {
+  width: 100%;
+  text-decoration-line: line-through;
+}
+
+
+
+.todoBox button {
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  background: transparent;
+  border: none;
+  color: var(--gray-300)
+}
+
+.todoBox button:hover {
+  background: var(--gray-400);
+  color: var(--danger)
+}
+
